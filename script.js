@@ -49,3 +49,29 @@ document.getElementById('kissButton').addEventListener('click', () => {
 });
 
 window.addEventListener('load', () => setTimeout(() => document.getElementById('loader').classList.add('hidden'), 650));
+
+const memoryDialog = document.getElementById('memoryDialog');
+const modalPhoto = document.getElementById('modalPhoto');
+const memoryCaption = document.getElementById('memoryCaption');
+const memoryEnvelope = document.getElementById('memoryEnvelope');
+
+document.querySelectorAll('.memory').forEach((memory) => {
+  memory.addEventListener('click', () => {
+    const image = memory.querySelector('img');
+    modalPhoto.src = image.currentSrc || image.src;
+    modalPhoto.alt = image.alt;
+    memoryCaption.textContent = memory.querySelector('p').textContent;
+    memoryDialog.showModal();
+    requestAnimationFrame(() => memoryEnvelope.classList.add('is-open'));
+  });
+});
+
+function closeMemory() {
+  memoryEnvelope.classList.remove('is-open');
+  memoryDialog.close();
+}
+
+document.getElementById('memoryClose').addEventListener('click', closeMemory);
+memoryDialog.addEventListener('click', (event) => {
+  if (event.target === memoryDialog) closeMemory();
+});

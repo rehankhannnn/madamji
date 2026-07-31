@@ -51,11 +51,11 @@
     <section class="memories" id="memories">
       <div class="section-heading"><p class="eyebrow">saved in my heart</p><h2>Our memories</h2><p>lets cherish every moment we spent muaahh.</p></div>
       <div class="memory-grid">
-        <article class="memory m1"><img src="assets/memory-5.jpeg" alt="A happy close-up together" /><span>01</span><p>That smile I never get tired of</p></article>
-        <article class="memory m2"><img src="assets/memory-3.jpeg" alt="A quiet, cozy moment together" /><span>02</span><p>our movie dates</p></article>
-        <article class="memory m3"><img src="assets/memory-1.jpeg" alt="A sweet kiss together" /><span>03</span><p>we lookin cute as alwayas hehe</p></article>
-        <article class="memory m4"><img src="assets/6.jpeg" alt="A mirror selfie together" /><span>04</span><p>us being us</p></article>
-        <article class="memory m5"><img src="assets/memory-2.jpeg" alt="A happy photo outdoors together" /><span>05</span><p>u at my house shushh!!</p></article>
+        <button class="memory m1" type="button" aria-haspopup="dialog" aria-label="Open memory: That smile I never get tired of"><img src="assets/memory-5.jpeg" alt="A happy close-up together" /><span>01</span><p>That smile I never get tired of</p></button>
+        <button class="memory m2" type="button" aria-haspopup="dialog" aria-label="Open memory: our movie dates"><img src="assets/memory-3.jpeg" alt="A quiet, cozy moment together" /><span>02</span><p>our movie dates</p></button>
+        <button class="memory m3" type="button" aria-haspopup="dialog" aria-label="Open memory: we lookin cute as alwayas hehe"><img src="assets/memory-1.jpeg" alt="A sweet kiss together" /><span>03</span><p>we lookin cute as alwayas hehe</p></button>
+        <button class="memory m4" type="button" aria-haspopup="dialog" aria-label="Open memory: us being us"><img src="assets/6.jpeg" alt="A mirror selfie together" /><span>04</span><p>us being us</p></button>
+        <button class="memory m5" type="button" aria-haspopup="dialog" aria-label="Open memory: u at my house shushh"><img src="assets/memory-2.jpeg" alt="A happy photo outdoors together" /><span>05</span><p>u at my house shushh!!</p></button>
       </div>
     </section>
 
@@ -81,6 +81,20 @@
       <p class="signature">forever,<br /><em>Your hubby</em></p>
     </section>
   </main>
+  <dialog class="memory-dialog" id="memoryDialog" aria-labelledby="memoryCaption">
+    <div class="memory-modal-inner">
+      <button class="memory-close" id="memoryClose" type="button" aria-label="Close memory">×</button>
+      <p class="eyebrow">a memory for us</p>
+      <div class="memory-envelope" id="memoryEnvelope">
+        <img class="modal-photo" id="modalPhoto" src="" alt="" />
+        <div class="envelope-pocket"></div>
+        <div class="envelope-flap"></div>
+        <span class="envelope-seal">♥</span>
+      </div>
+      <p class="memory-caption" id="memoryCaption"></p>
+      <p class="memory-hint">tap outside to tuck it away</p>
+    </div>
+  </dialog>
   <footer>Made with all my love <span>♡</span></footer>
   <script src="script.js"></script>
 </body>
