@@ -12,7 +12,7 @@ const reasons = [
   'You make being myself feel wonderfully easy.',
   'Your heart is the warmest place I know.',
   'You notice the little things — and somehow make them matter more.',
-  'You value every sinle moment we spend together.',
+  'You value every single moment we spend together.',
   'You make me want to be softer, kinder, and better.',
   'Your laugh is still my favorite sound, ik u dont like it, but I do huhh.',
   'You are my calm, my joy, and my home.',
