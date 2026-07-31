@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustration of a couple in love">
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f9d3d8"/><stop offset="1" stop-color="#f6eee0"/></linearGradient></defs>
+  <rect width="800" height="1000" fill="url(#sky)"/><circle cx="650" cy="150" r="66" fill="#fff4cb"/><path d="M0 780 Q160 650 320 775 T800 715V1000H0Z" fill="#bacda9"/>
+  <path d="M82 190c32-58 95-37 99 8 15-40 83-49 103 7-41 65-92 89-100 94-10-7-73-47-102-109Z" fill="#e7829c" opacity=".85"/>
+  <g stroke="#573b3f" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M321 444v107"/><path d="M496 431v121"/></g>
+  <g><circle cx="322" cy="357" r="75" fill="#b97759"/><path d="M247 362q1-110 82-95 84 1 72 105l-36-28q-57 28-118 18" fill="#613d37"/><circle cx="299" cy="365" r="6"/><circle cx="352" cy="365" r="6"/><path d="M306 405q18 15 36 0" fill="none" stroke="#633b39" stroke-width="6" stroke-linecap="round"/><path d="M237 510q84-57 164 0l29 255H205Z" fill="#d9728e"/></g>
+  <g><circle cx="500" cy="344" r="75" fill="#e4ac88"/><path d="M424 347q3-108 79-96 82 9 70 104l-41-29q-45 29-108 21" fill="#40302f"/><circle cx="477" cy="354" r="6"/><circle cx="530" cy="354" r="6"/><path d="M483 393q18 14 36 0" fill="none" stroke="#633b39" stroke-width="6" stroke-linecap="round"/><path d="M414 500q87-58 169 0l28 267H391Z" fill="#f7e9d7"/></g>
+  <path d="M350 525q43 54 85 0" fill="none" stroke="#b97759" stroke-width="18" stroke-linecap="round"/><path d="M345 530q37 20 71 5" fill="none" stroke="#e4ac88" stroke-width="17" stroke-linecap="round"/>
+  <path d="M390 591c18-29 51-7 40 16 20-25 52 5 25 37l-32 31-34-33c-26-31-2-56 19-31Z" fill="#df6e89"/>
+</svg>
